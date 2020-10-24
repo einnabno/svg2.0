@@ -1,0 +1,26 @@
+.s1 {
+position: absolute;
+height: 300px;
+width: 300px;
+  animation: change 4s infinite;
+  animation-iteration-count: infinite;
+  background-color:#B26A22;
+}
+
+@keyframes change {
+  from {background-color: #B26A22;}
+  to {background-color:  #B2B222;}
+}
+
+.s2 {
+position: absolute;
+height: 300px;
+width: 300px;
+animation: hideshow 2s 1.5s ease infinite;
+}
+@keyframes hideshow{
+0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+}
